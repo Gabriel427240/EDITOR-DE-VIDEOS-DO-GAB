@@ -1,0 +1,33 @@
+import customtkinter as ctk
+
+BACKGROUND = "#111318"
+SIDEBAR = "#171A21"
+SURFACE = "#1B1F27"
+CARD = "#222731"
+CARD_HOVER = "#2A303C"
+BORDER = "#343B49"
+PRIMARY = "#4F8CFF"
+PRIMARY_HOVER = "#6A9DFF"
+SUCCESS = "#42C98A"
+WARNING = "#E4B35A"
+ERROR = "#E36D78"
+TEXT_PRIMARY = "#F4F6FA"
+TEXT_SECONDARY = "#B6BECC"
+TEXT_MUTED = "#778194"
+
+FONT_FAMILY = "Segoe UI"
+FONT_HERO = (FONT_FAMILY, 30, "bold")
+FONT_TITLE = (FONT_FAMILY, 22, "bold")
+FONT_SECTION = (FONT_FAMILY, 15, "bold")
+FONT_BODY = (FONT_FAMILY, 13)
+FONT_SMALL = (FONT_FAMILY, 11)
+
+RADIUS = 12
+SMALL_RADIUS = 8
+PAD = 24
+GAP = 14
+
+
+def apply() -> None:
+    ctk.set_appearance_mode("Dark")
+    ctk.set_default_color_theme("blue")

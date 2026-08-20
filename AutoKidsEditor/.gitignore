@@ -1,0 +1,82 @@
+# Ambiente virtual
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Logs e caches locais
+*.log
+ai.log
+logs/
+.cache/
+cache/
+
+# Cache de modelos/transcricao
+.huggingface/
+.cache/huggingface/
+models/
+model_cache/
+whisper_cache/
+ollama_cache/
+.ollama/
+
+# Banco local
+data/*.db
+data/*.sqlite
+data/*.sqlite3
+*.db
+*.sqlite
+*.sqlite3
+
+# Midias e arquivos gerados
+data/projects/*
+!data/projects/.gitkeep
+data/outputs/*
+!data/outputs/.gitkeep
+data/temp/*
+!data/temp/.gitkeep
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.webm
+*.wav
+*.mp3
+*.m4a
+*.aac
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.gif
+*.flac
+*.mov
+*.mxf
+
+# Renders e temporarios
+render_*/
+output/
+preview*.mp4
+visual_track.mp4
+concat.txt
+
+# Modelos de IA
+*.gguf
+*.ggml
+*.onnx
+*.bin
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+*.model
+
+# Configuracoes locais
+.env
+.vscode/
